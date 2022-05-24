@@ -1,10 +1,15 @@
-
+import { Route, Routes } from "react-router-dom";
+import Index from "../pages/index";
+import Header from "./Header/Header";
 
 function App() {
   return (
-    <div className="App">
-    hello world
-    </div>
+    <>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Index />} exact />
+      </Routes>
+    </>
   );
 }
 
