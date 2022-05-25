@@ -40,17 +40,6 @@ const HeaderTop = () => {
             </div>
           </Col>
 
-          {/*<Link
-              to="#ec-mobile-sidebar"
-              className={`${classes.ecHeaderBtn} ${classes.ecSidebarToggle} d-lg-none`}
-            >
-              <img
-                src={icon}
-                className={`svg_img ${classes.headerSvg}`}
-                alt="icon"
-              />
-  </Link>*/}
-
           <Col className={`text-center ${classes.headerTopCenter}`}>
             <div className={`${classes.headerTopMessage} ${classes.textUpper}`}>
               <span>Free Shipping</span>This Week Order Over - $75
